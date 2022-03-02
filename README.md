@@ -74,7 +74,7 @@ npm i
 该命令提供了`webpack-dev-serve`的功能,适合开发环境，可用于快速开发应用程序。
 在项目根目录下运行命令：
 ```js
-npm run build
+npm run serve
 ```
 即可启动服务,开发时只需保存代码，浏览器会自动刷新。
 ### npm run build
