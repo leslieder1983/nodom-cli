@@ -1,0 +1,25 @@
+{
+  "name": "nodom-cli",
+  "version": "1.0.0",
+  "description": "simple nodom cli",
+  "bin": {
+    "nodom": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "kyle",
+    "email": "1171657320@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "semver": "^7.3.2",
+    "cross-spawn": "^7.0.3"
+  }
+}
