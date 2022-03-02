@@ -31,7 +31,11 @@ nodom create <app-name>
 ```js
 npm config set registry http://registry.npm.taobao.org/
 ```
-
+### npx
+如果支持npx,可以不安装`nodom-cli`,直接执行：  
+```js
+npx nodom-cli create <app-name>
+```
 ## 开始
 工具的使用方式为：
 ```
