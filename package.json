@@ -1,6 +1,6 @@
 {
   "name": "nodom-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "nodom cli tools",
   "bin": {
     "nodom": "./bin/cli.js"
