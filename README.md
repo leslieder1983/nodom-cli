@@ -8,7 +8,7 @@ nodom-cli预制了两种开发语言的支持：
 
 用户可自由选择语言环境。
 ## 使用
-你需要确保你的本地Node版本>=14。
+你需要确保你的本地Node版本>=14。  
 可以使用下列方式新建你的Nodom应用:
 ### npm
 首先需要全局安装nodom-cli
@@ -25,6 +25,12 @@ nodom create <app-name>
 > app-name为项目名称  
 
 随后依据提示完成新建流程即可。
+
+如需提升依赖下载速度，可以设置淘宝镜像源：
+
+```js
+npm config set registry http://registry.npm.taobao.org/
+```
 
 ## 开始
 工具的使用方式为：
@@ -90,5 +96,5 @@ nodom-cli内置了基本的开发支持，如需添加功能或修改，请手�
 ```
 模板内路径写法：
 ```html
-    <img id='logo'  src='public/logo.png' />
+<img id='logo'  src='public/logo.png' />
 ```
