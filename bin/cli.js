@@ -22,8 +22,6 @@ const chalk=require('chalk');
 const figlet=require('figlet');
 const { execSync } = require('child_process');
 const semver = require('semver');
-const spawn = require('cross-spawn');
-const  https= require('https');
 //命令行
 let projectName;
 program.command('create <app-name>')

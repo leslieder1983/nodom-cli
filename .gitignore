@@ -2,11 +2,8 @@
 
 #other
 #.gitignore
-#tsconfig.json
-#.vscode/
 .tscache/
 ./package-lock.json
 node_modules/
-dist/
 template/
 diff/

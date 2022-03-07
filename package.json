@@ -1,7 +1,7 @@
 {
   "name": "nodom-cli",
-  "version": "1.0.3",
-  "description": "nodom cli tools",
+  "version": "1.0.5",
+  "description": "Cli tools for Nodom",
   "bin": {
     "nodom": "./bin/cli.js"
   },
@@ -20,9 +20,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/weblabsw/nodom-cli.git"
+    "url": "git@github.com:leslieder1983/nodom-cli.git"
   },
-  "homepage": "https://gitee.com/weblabsw/nodom-cli",
+  "homepage": "https://github.com/leslieder1983/nodom-cli",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.2",
